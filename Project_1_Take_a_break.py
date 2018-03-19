@@ -9,7 +9,7 @@ import time
 break_count = 3
 count = 0
 
-print('Take a break program started %f seconds'.format(time.time))
+print'Break timer started:',time.ctime()
 while break_count > 0:
     # stops program execution
     # functions abstract exact execution
@@ -17,4 +17,5 @@ while break_count > 0:
     webbrowser.open("https://www.youtube.com/watch?v=3iDxU9eNQ_0")
     break_count-=1
 
-print('Take a break program complete %f seconds'.format(time.time))
+print'Break timer ended:',time.ctime()
+
